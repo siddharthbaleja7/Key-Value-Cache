@@ -1,5 +1,5 @@
 # Explicitly use Linux/Ubuntu platform
-FROM --platform=linux/arm64 node:18
+FROM node:18-bullseye
 
 # Set working directory in container
 WORKDIR /app
